@@ -30,6 +30,7 @@
 
             If type = "Rectangle" Then
                 d = New Rect(PictureBox1.Image, m_Previous, e.Location)
+                d.fill = CheckBox2.Checked
                 d.pen = New Pen(c, w)
             End If
 
