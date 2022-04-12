@@ -41,6 +41,7 @@ Partial Class Form1
         Me.TrackBar3 = New System.Windows.Forms.TrackBar()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.Button10 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -198,11 +199,21 @@ Partial Class Form1
         Me.CheckBox2.Text = "fil"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.Teal
+        Me.Button10.Location = New System.Drawing.Point(743, 12)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(26, 25)
+        Me.Button10.TabIndex = 17
+        Me.Button10.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(781, 487)
+        Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.TrackBar3)
@@ -252,4 +263,5 @@ Partial Class Form1
     Friend WithEvents TrackBar3 As TrackBar
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents Button10 As Button
 End Class

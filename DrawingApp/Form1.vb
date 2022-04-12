@@ -123,4 +123,8 @@
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
         type = "picture"
     End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        c = sender.backcolor
+    End Sub
 End Class
